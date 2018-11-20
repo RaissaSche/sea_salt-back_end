@@ -1,0 +1,26 @@
+securities:
+  jwt:
+    secret: "crescer-2018-2-java-jwt"
+    expiration: 86400000 # 1 dia em milisegundos
+  public:
+    path: "/public/**"
+
+server:
+    port: 8090
+    servlet:
+      context-path: /sea-salt
+
+spring:
+    jpa:
+        database-platform: org.hibernate.dialect.PostgreSQLDialect
+        hibernate:
+            ddl-auto: update
+        show-sql: true
+        properties:
+            hibernate:
+                format_sql: true
+datasource:
+    url: jdbc:postgresql://{HOSTNAME}:5432/{DATABASE}?sslmode=require&sslfactory=org.postgresql.ssl.NonValidatingFactory
+    username: SEASALT
+    password: SEASALT
+    driver-class-name: org.postgresql.Driver

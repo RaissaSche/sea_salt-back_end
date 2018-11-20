@@ -1,0 +1,6 @@
+   _____                 _____         .    .
+  (        ___    ___   (        ___   |   _/_
+   `--.  .'   `  /   `   `--.   /   `  |    |
+      |  |----' |    |      |  |    |  |    |
+ \___.'  `.___, `.__/| \___.'  `.__/| /\__  \__/
+${AnsiColor.BRIGHT_BLUE}:: Kupo :: Running Spring Boot ${spring-boot.version} :: \ö/${AnsiColor.BLACK}
